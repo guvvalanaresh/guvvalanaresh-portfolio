@@ -1,11 +1,11 @@
 import React from "react"
-import Hero from "./pages/Hero"
+import HeroSection from "./components/HeroSection"
 
 function App() {
 
   return (
     <div>
-      <Hero />
+      <HeroSection />
     </div>
   )
 }

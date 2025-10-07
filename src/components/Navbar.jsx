@@ -11,7 +11,7 @@ const Navbar = () => {
     <header className="w-full shadow-sm sticky top-0 bg-white/80 backdrop-blur-md z-50">
       <div className="flex justify-between items-center px-6 py-4 max-w-6xl mx-auto">
         {/* Logo */}
-        <h1 className="text-2xl suse-mono font-semibold">naresh.</h1>
+        <img className='w-[90px] h-[30px]' src="/naresh.png" alt="" />
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex">
