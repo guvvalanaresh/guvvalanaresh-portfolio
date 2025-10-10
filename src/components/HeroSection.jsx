@@ -10,7 +10,7 @@ const HeroSection = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div className="flex flex-col-reverse md:flex-row justify-between items-center w-full h-auto md:h-[calc(100vh-80px)] px-4 sm:px-8 md:px-16 py-10 md:py-0">
+      <div id="hero" className="flex flex-col-reverse md:flex-row justify-between items-center w-full h-auto md:h-[calc(100vh-80px)] px-4 sm:px-8 md:px-16 py-10 md:py-0">
         
         {/* Left Content with Animation */}
         <motion.div
@@ -93,11 +93,17 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
-          className="flex justify-center items-center w-full md:w-1/2 mb-8 md:mb-0"
+          className="flex justify-center items-center w-full md:w-1/2 mb-5 md:mb-0"
         >
           <img
-            className="w-[180px] sm:w-[260px] md:w-[350px] lg:w-[400px] object-contain drop-shadow-md 
-                       rounded-full md:rounded-none transition-all duration-500"
+            className="
+              w-32 h-32             /* small screens */
+              sm:w-48 sm:h-48       /* slightly bigger on small screens */
+              md:w-[350px] md:h-[420px]  /* desktop size */
+              lg:w-[400px] lg:h-[480px]   /* large screens */
+              object-contain drop-shadow-md
+              transition-all duration-500
+            "
             src="/hero-image.png"
             alt="Hero"
           />

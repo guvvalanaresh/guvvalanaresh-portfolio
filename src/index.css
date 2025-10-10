@@ -44,15 +44,6 @@
   font-style: normal;
 }
 
-/* @keyframes crt-flicker {
-  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-    opacity: 1;
-  }
-  20%, 24%, 55% {
-    opacity: 0.8;
-  }
+html {
+  scroll-behavior: smooth;
 }
-
-.retro-btn {
-  animation: crt-flicker 2.5s infinite;
-} */
