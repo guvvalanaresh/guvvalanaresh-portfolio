@@ -34,7 +34,7 @@ const Projects = () => {
         className="text-2xl sm:text-3xl md:text-4xl font-semibold tracking-widest uppercase
                    px-4 sm:px-5 py-2 border-2 border-[#222] bg-[#fff8e7] text-[#111]
                    shadow-[3px_3px_0px_#000] hover:shadow-[6px_6px_0_0_#94d82d]
-                   transition-all duration-300 ease-in-out cursor-pointer
+                   transition-all duration-300 ease-in-out
                    hover:bg-[#222] hover:text-[#fff8e7]
                    hover:-translate-y-1 bbh-sans-bogle-regular text-center mb-10"
         initial={{ opacity: 0, y: -40 }}
@@ -80,7 +80,7 @@ const Projects = () => {
                                shadow-[2px_2px_0px_#000] transition-all duration-300 ease-in-out
                                hover:bg-black hover:text-white hover:-translate-x-[2px] hover:-translate-y-[2px]
                                hover:shadow-[4px_4px_0px_#22c55e] active:translate-x-0 active:translate-y-0
-                               flex items-center gap-1 justify-center"
+                               flex items-center gap-1 justify-center hover:cursor-pointer"
                   >
                     🔗 Live
                   </button>
@@ -94,7 +94,7 @@ const Projects = () => {
                                shadow-[2px_2px_0px_#000] transition-all duration-300 ease-in-out
                                hover:bg-black hover:text-white hover:-translate-x-[2px] hover:-translate-y-[2px]
                                hover:shadow-[4px_4px_0px_#22c55e] active:translate-x-0 active:translate-y-0
-                               flex items-center gap-1 justify-center"
+                               flex items-center gap-1 justify-center hover:cursor-pointer"
                   >
                     <FaGithub size={14} /> Source Code
                   </button>
@@ -108,7 +108,7 @@ const Projects = () => {
                                shadow-[2px_2px_0px_#000] transition-all duration-300 ease-in-out
                                hover:bg-black hover:text-white hover:-translate-x-[2px] hover:-translate-y-[2px]
                                hover:shadow-[4px_4px_0px_#22c55e] active:translate-x-0 active:translate-y-0
-                               flex items-center gap-1 justify-center"
+                               flex items-center gap-1 justify-center hover:cursor-pointer"
                   >
                     📘 Readme
                   </button>
@@ -134,7 +134,7 @@ const Projects = () => {
                        shadow-[2px_2px_0px_#000] transition-all duration-300 ease-in-out
                        hover:bg-black hover:text-white hover:-translate-x-[2px] hover:-translate-y-[2px]
                        hover:shadow-[4px_4px_0px_#22c55e] active:translate-x-0 active:translate-y-0
-                       flex items-center gap-2"
+                       flex items-center gap-2 hover:cursor-pointer"
           >
             View More →
           </button>
