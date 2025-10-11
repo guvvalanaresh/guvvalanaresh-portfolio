@@ -6,7 +6,7 @@ const AboutMe = () => {
       id="about"
       className="min-h-screen flex flex-col justify-center items-center bg-white px-6 sm:px-10 md:px-16 lg:px-24 py-12"
     >
-      {/* 🔹 Heading */}
+      {/* Heading */}
       <h1
         className="text-3xl sm:text-4xl font-semibold tracking-widest uppercase
                    px-5 py-2 border-2 border-[#222] bg-[#fff8e7]
@@ -17,7 +17,7 @@ const AboutMe = () => {
         About Me
       </h1>
 
-      {/* 🔹 Content */}
+      {/* Content */}
       <div
         className="mt-10 max-w-3xl text-center text-gray-800 font-mono leading-relaxed
                    transition-all duration-700 ease-in-out animate-fadeIn"
@@ -38,7 +38,7 @@ const AboutMe = () => {
         </p>
       </div>
 
-      {/* 🔹 Animated border card (optional aesthetic box) */}
+      {/* Animated border card (optional aesthetic box) */}
       <div
         className="mt-10 p-4 border-2 border-black rounded-md shadow-[3px_3px_0px_#000]
                    hover:shadow-[6px_6px_0px_#22c55e] transition-all duration-300 ease-in-out
