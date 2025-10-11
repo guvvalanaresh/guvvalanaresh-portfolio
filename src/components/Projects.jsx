@@ -4,8 +4,8 @@ import { FaGithub } from 'react-icons/fa'
 const Projects = () => {
   const projects = [
     { title: "Stampbook", img: "/project-images/stamp-book.png", link: "https://stampbook-oujl.vercel.app/", github: "https://github.com/guvvalanaresh/stampbook", readme: "https://github.com/guvvalanaresh/stampbook"},
-    { title: "GitHub PR Dashboard", img: "/project-images/git-pr-dashboard.png" },
-    { title: "Todo App", img: "/project-images/todo.png" },
+    { title: "GitHub PR Dashboard", img: "/project-images/git-pr-dashboard.png", link: "https://git-pr-dashboard.vercel.app/", github: "https://github.com/guvvalanaresh/git-pr-dashboard", readme: "https://github.com/guvvalanaresh/git-pr-dashboard"},
+    { title: "Todo App", img: "/project-images/todo.png", link: "https://todo-react-tawny-delta.vercel.app/", github: "https://github.com/guvvalanaresh/todo-react", readme: "https://github.com/guvvalanaresh/todo-react"},
   ]
 
   return (
@@ -40,10 +40,10 @@ const Projects = () => {
               />
             </div>
             <div className="p-5 text-center flex flex-col gap-3">
-              <h2 className="text-xl font-semibold">{project.title}</h2>
+              <h2 className="text-xl font-semibold roboto-slab">{project.title}</h2>
               
               <div className="flex justify-center gap-2 flex-wrap">
-                <a href="#">
+                <a href={project.link}>
                   <button
                     className="relative px-3 py-1 text-[10px] sm:text-xs font-mono font-semibold uppercase 
                                tracking-widest text-gray-900 bg-white border-2 border-black 
@@ -54,7 +54,7 @@ const Projects = () => {
                     🔗 Live
                   </button>
                 </a>
-                <a href="#">
+                <a href={project.github}>
                   <button
                     className="relative px-3 py-1 text-[10px] sm:text-xs font-mono font-semibold uppercase 
                                tracking-widest text-gray-900 bg-white border-2 border-black 
@@ -65,7 +65,7 @@ const Projects = () => {
                     <FaGithub size={14}/> Source Code
                   </button>
                 </a>
-                <a href="#">
+                <a href={project.readme}>
                   <button
                     className="relative px-3 py-1 text-[10px] sm:text-xs font-mono font-semibold uppercase 
                                tracking-widest text-gray-900 bg-white border-2 border-black 
