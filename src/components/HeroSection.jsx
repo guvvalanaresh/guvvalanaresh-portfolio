@@ -54,7 +54,7 @@ const HeroSection = () => {
               className="relative px-5 py-1.5 text-[12px] sm:text-sm font-mono font-semibold uppercase 
                         tracking-widest text-gray-900 bg-white border-2 border-black 
                         shadow-[3px_3px_0px_#000] transition-all duration-300 ease-in-out
-                        hover:bg-black hover:text-white hover:translate-x-[-3px] hover:translate-y-[-3px]
+                        hover:bg-black hover:text-white hover:translate-x-[-3px] hover:translate-y-[-3px] hover:cursor-pointer
                         hover:shadow-[6px_6px_0px_#22c55e] active:translate-x-0 active:translate-y-0"
             >
               Resume
