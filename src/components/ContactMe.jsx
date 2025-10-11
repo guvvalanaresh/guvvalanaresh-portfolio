@@ -13,7 +13,7 @@ const ContactMe = () => {
         className="text-2xl sm:text-3xl md:text-4xl font-semibold tracking-widest uppercase
                    px-4 sm:px-5 py-2 border-2 border-[#222] bg-[#fff8e7] text-[#111]
                    shadow-[3px_3px_0px_#000] hover:shadow-[6px_6px_0_0_#94d82d]
-                   transition-all duration-300 ease-in-out cursor-pointer
+                   transition-all duration-300 ease-in-out
                    hover:bg-[#222] hover:text-[#fff8e7] hover:-translate-y-1
                    bbh-sans-bogle-regular text-center mb-10"
         initial={{ opacity: 0, y: -40 }}
@@ -87,7 +87,7 @@ const ContactMe = () => {
             transition={{ duration: 0.3 }}
             className="relative px-5 py-2 text-sm font-mono font-semibold uppercase tracking-widest
                        text-gray-900 bg-white border-2 border-black shadow-[2px_2px_0px_#000]
-                       transition-all duration-300 ease-in-out active:translate-x-0 active:translate-y-0"
+                       transition-all duration-300 ease-in-out active:translate-x-0 active:translate-y-0 cursor-pointer"
           >
             Send Message
           </motion.button>
