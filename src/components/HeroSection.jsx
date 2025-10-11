@@ -49,7 +49,7 @@ const HeroSection = () => {
           </p>
 
           {/* Resume Button */}
-          <a href="#" className="mx-auto md:mx-0">
+          <a href="/naresh_developer.pdf" className="mx-auto md:mx-0">
             <button
               className="relative px-5 py-1.5 text-[12px] sm:text-sm font-mono font-semibold uppercase 
                         tracking-widest text-gray-900 bg-white border-2 border-black 
@@ -65,21 +65,21 @@ const HeroSection = () => {
           {/* Social Media Links */}
           <div className="flex justify-center md:justify-start gap-3 mt-2">
             <a
-              href="#"
+              href="https://github.com/guvvalanaresh"
               className="transition-transform duration-300 hover:-translate-y-1"
               aria-label="GitHub"
             >
               <i className="ri-github-fill text-[22px] text-gray-800 hover:text-black"></i>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/nareshkumarreddyguvvala/"
               className="transition-transform duration-300 hover:-translate-y-1"
               aria-label="LinkedIn"
             >
               <i className="ri-linkedin-box-fill text-[22px] text-[#0077b5] hover:text-[#005582]"></i>
             </a>
             <a
-              href="#"
+              href="https://x.com/thisisnaresh___"
               className="transition-transform duration-300 hover:-translate-y-1"
               aria-label="Twitter / X"
             >
