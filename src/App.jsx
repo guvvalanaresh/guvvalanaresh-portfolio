@@ -1,6 +1,7 @@
 import React from "react"
 import HeroSection from "./components/HeroSection"
 import Skills from './components/Skills';
+import Projects from "./components/Projects";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <HeroSection />
       <Skills />
+      <Projects />
     </div>
   )
 }
