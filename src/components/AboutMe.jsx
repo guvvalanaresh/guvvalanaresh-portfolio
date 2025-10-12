@@ -11,7 +11,7 @@ const AboutMe = () => {
         className="text-3xl sm:text-4xl font-semibold tracking-widest uppercase
                    px-5 py-2 border-2 border-[#222] bg-[#fff8e7]
                    shadow-[3px_3px_0px_#000] transition-all duration-300
-                   hover:shadow-[6px_6px_0px_#22c55e] hover:-translate-x-[3px]
+                   bbh-sans-bogle-regular hover:shadow-[6px_6px_0px_#22c55e] hover:-translate-x-[3px]
                    hover:-translate-y-[3px]"
       >
         About Me

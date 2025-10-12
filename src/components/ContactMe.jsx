@@ -41,7 +41,7 @@ const ContactMe = () => {
         className="text-2xl sm:text-3xl md:text-4xl font-semibold tracking-widest uppercase
                    px-4 sm:px-5 py-2 border-2 border-[#222] bg-[#fff8e7] text-[#111]
                    shadow-[3px_3px_0px_#000] hover:shadow-[6px_6px_0_0_#94d82d]
-                   transition-all duration-300 ease-in-out cursor-pointer
+                   transition-all duration-300 ease-in-out bbh-sans-bogle-regular
                    hover:bg-[#222] hover:text-[#fff8e7]
                    hover:-translate-y-1 text-center mb-10"
         initial={{ opacity: 0, y: -40 }}
