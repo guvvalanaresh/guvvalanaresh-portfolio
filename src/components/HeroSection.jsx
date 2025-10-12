@@ -38,7 +38,7 @@ const HeroSection = () => {
 
             {/* Full Stack label above Developer */}
             <span className="absolute left-14 sm:left-20 bottom-8 sm:bottom-10 -translate-x-1/2 text-[10px] sm:text-sm md:text-[12px] text-green-900 roboto-condensed whitespace-nowrap font-medium">
-              Python Full Stack
+              Full Stack
             </span>
           </div>
 
