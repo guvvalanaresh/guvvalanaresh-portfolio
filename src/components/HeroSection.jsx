@@ -10,7 +10,7 @@ const HeroSection = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <div id="hero" className="flex flex-col-reverse md:flex-row justify-between items-center w-full h-auto md:h-[calc(100vh-80px)] px-4 sm:px-8 md:px-16 py-10 md:py-0">
+      <div id="hero" className="flex flex-col-reverse md:flex-row justify-between items-center w-full h-auto md:h-[calc(100vh-80px)] px-4 sm:px-8 md:px-16 py-10 md:py-0 bg-gray-50">
         
         {/* Left Content with Animation */}
         <motion.div
