@@ -1,8 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 const Projects = () => {
+
+  const navigate = useNavigate();
+
+  const handleViewMore = () => {
+    navigate('/projects'); // path to your ProjectsPage (matches route in App.jsx)
+  };
+
   const projects = [
     {
       title: "Stampbook",
@@ -36,7 +44,7 @@ const Projects = () => {
                    shadow-[3px_3px_0px_#000] hover:shadow-[6px_6px_0_0_#94d82d]
                    transition-all duration-300 ease-in-out
                    hover:bg-[#222] hover:text-[#fff8e7]
-                   hover:-translate-y-1 bbh-sans-bogle-regular text-center mb-10"
+                   hover:-translate-y-[3px] bbh-sans-bogle-regular text-center mb-10 hover:-translate-x-[3px]"
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
@@ -127,18 +135,19 @@ const Projects = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
       >
-        <a href="#">
+        {/* <a href="./ProjectsPage.jsx"> */}
           <button
             className="relative px-6 py-2 text-sm font-mono font-semibold uppercase
                        tracking-widest text-gray-900 bg-white border-2 border-black
                        shadow-[2px_2px_0px_#000] transition-all duration-300 ease-in-out
-                       hover:bg-black hover:text-white hover:-translate-x-[2px] hover:-translate-y-[2px]
-                       hover:shadow-[4px_4px_0px_#22c55e] active:translate-x-0 active:translate-y-0
+                       hover:bg-black hover:text-white hover:-translate-x-[3px] hover:-translate-y-[3px]
+                       hover:shadow-[6px_6px_0px_#22c55e] active:translate-x-0 active:translate-y-0
                        flex items-center gap-2 hover:cursor-pointer"
+            onClick={handleViewMore}
           >
             View More →
           </button>
-        </a>
+        {/* </a> */}
       </motion.div>
     </section>
   );
