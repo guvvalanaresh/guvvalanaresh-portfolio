@@ -144,7 +144,7 @@ const ContactMe = () => {
       >
         {/* Email Card */}
         <motion.a
-          href="mailto:youremail@example.com"
+          href="mailto:gnareshkumarreddy7@gmail.com"
           className="flex items-center gap-2 px-2 py-1 border-2 border-black rounded shadow-md bg-white hover:bg-gray-100 transition-all duration-300"
           whileHover={{ scale: 1.05, y: -3 }}
         >
@@ -154,7 +154,7 @@ const ContactMe = () => {
 
         {/* Phone Card */}
         <motion.a
-          href="tel:+911234567890"
+          href="tel:+917794886654"
           className="flex items-center gap-2 px-2 py-1 border-2 border-black rounded shadow-md bg-white hover:bg-gray-100 transition-all duration-300"
           whileHover={{ scale: 1.05, y: -3 }}
         >
