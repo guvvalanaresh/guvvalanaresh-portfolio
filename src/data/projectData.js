@@ -14,6 +14,20 @@ const projectsData = [
       readme: "https://github.com/guvvalanaresh/git-pr-dashboard",
     },
     {
+      title: "Movie App using TMDB API",
+      img: "/project-images/movie-app.png",
+      link: "https://movie-app-blush-chi-85.vercel.app/",
+      github: "https://github.com/guvvalanaresh/movie-app",
+      readme: "https://github.com/guvvalanaresh/movie-app",
+    },
+    {
+      title: "Ecommerce Frontend",
+      img: "/project-images/ecommerce-frontend.png",
+      link: "https://ecommerce-react-blond-nine.vercel.app/",
+      github: "https://github.com/guvvalanaresh/ecommerce-react",
+      readme: "https://github.com/guvvalanaresh/ecommerce-react",
+    },
+    {
       title: "Todo App",
       img: "/project-images/todo.png",
       link: "https://todo-react-tawny-delta.vercel.app/",
@@ -27,6 +41,13 @@ const projectsData = [
       link: "https://weather-app-sepia-gamma-41.vercel.app/",
       github: "https://github.com/guvvalanaresh/weather-app",
       readme: "https://github.com/guvvalanaresh/weather-app",
+    },
+    {
+      title: "Login Form Validation",
+      img: "/project-images/login-form.png",
+      link: "https://github.com/guvvalanaresh/login-form",
+      github: "https://github.com/guvvalanaresh/login-form",
+      readme: "https://github.com/guvvalanaresh/login-form/blob/main/README.md",
     },
   ];
 
